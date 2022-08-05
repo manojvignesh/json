@@ -1,0 +1,123 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "es": 0,
+      "message": "List of feed items retrieved successfully",
+      "feedCards": [
+        {
+          "createdBy": "234049",
+          "creatorType": "USER",
+          "target": {
+            "societyId": "28"
+          },
+          "feedCardMeta": {
+            "contentId": "POST-1234",
+            "contentType": "POST",
+            "status": "PUBLISHED",
+            "serviceName": "erp discussion service",
+            "entityId": "4kinfke0ejke",
+            "entityName": "discussion_info",
+            "version": "v1"
+          },
+          "feedCardLayout": {
+            "header": {
+              "type": "header1",
+              "data": {
+                "imageUrl": "https://ik.imagekit.io/w5wpymhnlsl/dp_4EBMIsTlQ.jpeg",
+                "title": "Naman Mishra",
+                "description": "B 102",
+                "descriptionColor": "#b0a9a9",
+                "createdAt": "1658425477",
+                "updatedAt": "1658425477",
+                "tags": [
+                  {
+                    "id": "1",
+                    "text": "Owner"
+                  },
+                  {
+                    "id": "2",
+                    "text": "Tenant"
+                  }
+                ]
+              },
+              "actions": {
+                "click": {
+                  "action": {
+                    "actionName": "header click redirection",
+                    "callToAction": "https://mygate.com",
+                    "actionId": "1",
+                    "actionType": "EXTERNAL_URL"
+                  }
+                },
+                "menu": {
+                  "delete": {
+                    "scope": [
+                      "CREATOR",
+                      "ADMIN"
+                    ],
+                    "endpoint": "https://mygate.api.com/v1/feed"
+                  },
+                  "edit": {
+                    "scope": [
+                      "CREATOR"
+                    ],
+                    "redirection": {
+                      "action": {
+                        "actionName": "header click redirection",
+                        "callToAction": "https://mygate.com",
+                        "actionId": "1",
+                        "actionType": "EXTERNAL_URL"
+                      }
+                    }
+                  },
+                  "report": {
+                    "scope": [
+                      "GLOBAL"
+                    ]
+                  }
+                }
+              }
+            },
+            "content": {
+              "type": "TEXT",
+              "data": {
+                "text": "Can we create a book readers club?",
+                "clampAfterLines": 2,
+                "backgroundColor": "#E4F7FB"
+              },
+              "actions": {
+                "click": {
+                  "action": {
+                    "actionName": "header click redirection",
+                    "callToAction": "https://mygate.com",
+                    "actionId": "1",
+                    "actionType": "EXTERNAL_URL"
+                  }
+                }
+              }
+            },
+            "footer": {
+              "type": "footer1",
+              "data": {
+                "onShare": {
+                  "text": "Hey, I found this post on MyGate"
+                }
+              },
+              "actions": {
+                "comment": {
+                  "action": {
+                    "actionName": "header click redirection",
+                    "callToAction": "https://mygate.com",
+                    "actionId": "1",
+                    "actionType": "EXTERNAL_URL"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
